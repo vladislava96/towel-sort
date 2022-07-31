@@ -1,4 +1,4 @@
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
 
   function sortAscending(arr) {
     if (arr.length <= 1) {
